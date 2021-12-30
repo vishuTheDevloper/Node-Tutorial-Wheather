@@ -1,4 +1,4 @@
-console.log('Client side javascript file is loaded!')
+// console.log('Client side javascript file is loaded!')
 //This Query Selector always Matches first Form,First Input etc
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
@@ -23,3 +23,4 @@ response.json().then((data) => {
 })
 })
 })
+
